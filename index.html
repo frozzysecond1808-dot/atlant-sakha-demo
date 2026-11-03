@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Атлант Саха — центр здоровья позвоночника, массаж в Якутске</title>
+<meta name="description" content="Атлант Саха — массаж в Якутске: тайский, аппаратный, детский, лимфодренаж, прессотерапия, массаж в 4 руки и выезд на дом. Проспект Ленина, 58, 2 этаж. Запись через WhatsApp.">
+<meta name="theme-color" content="#173a3a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#122b2b;
+  --deep:#173a3a;
+  --teal:#2c6b66;
+  --sage:#9fbfb4;
+  --mist:#e7efeb;
+  --sand:#f5efe6;
+  --paper:#fbf9f5;
+  --amber:#d9893f;
+  --amber-d:#b96d27;
+  --muted:#5b6e6b;
+  --line:#dbe3df;
+  --wa:#1fa855;
+  --r:20px;
+  --shadow:0 18px 40px -22px rgba(18,43,43,.35);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:Manrope,system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55;font-size:16px;overflow-x:hidden}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:Lora,Georgia,serif;font-weight:600;line-height:1.15;letter-spacing:-.01em}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 16px}
+@media(min-width:768px){.wrap{padding:0 32px}}
+
+/* concept bar */
+.concept{background:var(--ink);color:#e9f1ee;font-size:13px;line-height:1.4;text-align:center;padding:9px 16px}
+.concept b{color:#fff}
+
+/* header */
+header.top{position:sticky;top:0;z-index:40;background:rgba(251,249,245,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo-mark{width:38px;height:38px;border-radius:12px;background:var(--deep);display:grid;place-items:center;flex:none}
+.logo-txt{font-family:Lora,serif;font-weight:600;font-size:19px;line-height:1}
+.logo-txt small{display:block;font-family:Manrope,sans-serif;font-size:11px;font-weight:600;color:var(--muted);letter-spacing:.02em;margin-top:3px}
+nav.menu{display:none;gap:26px;font-weight:600;font-size:15px}
+nav.menu a{text-decoration:none;color:var(--muted)}
+nav.menu a:hover{color:var(--ink)}
+.top-phone{display:none;font-weight:700;text-decoration:none;white-space:nowrap}
+@media(min-width:960px){nav.menu{display:flex}.top-phone{display:block}}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:700 16px/1 Manrope,sans-serif;padding:16px 24px;border-radius:999px;border:0;cursor:pointer;text-decoration:none;transition:transform .15s,background .15s,box-shadow .15s}
+.btn:active{transform:scale(.98)}
+.btn-amber{background:var(--amber);color:#fff;box-shadow:0 10px 24px -12px rgba(217,137,63,.8)}
+.btn-amber:hover{background:var(--amber-d)}
+.btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn-ghost:hover{border-color:var(--teal)}
+.btn-sm{padding:11px 18px;font-size:14px}
+.top .btn-sm{display:none}
+@media(min-width:600px){.top .btn-sm{display:inline-flex}}
+
+/* hero */
+.hero{position:relative;overflow:hidden;padding:40px 0 56px;background:
+  radial-gradient(900px 500px at 100% 0%,#dfeae5 0%,transparent 60%),
+  radial-gradient(700px 400px at 0% 100%,#f3e6d6 0%,transparent 60%)}
+.hero-grid{display:grid;gap:36px;align-items:center}
+@media(min-width:960px){.hero{padding:72px 0 88px}.hero-grid{grid-template-columns:1.1fr .9fr;gap:56px}}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--teal)}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--amber);border-radius:2px}
+.hero h1{font-size:clamp(34px,8.4vw,60px);margin:16px 0 18px}
+.hero h1 em{font-style:italic;color:var(--teal)}
+.lead{font-size:18px;color:var(--muted);max-width:540px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 30px}
+.hero-cta .btn{flex:1 1 220px}
+@media(min-width:600px){.hero-cta .btn{flex:0 0 auto}}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:560px}
+.fact{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 12px}
+.fact b{display:block;white-space:nowrap;font-family:Lora,serif;font-size:24px;line-height:1.1}
+.fact span{font-size:12.5px;color:var(--muted);line-height:1.3;display:block;margin-top:4px}
+.fact .star{color:var(--amber);display:inline;font-size:inherit;margin:0}
+
+.hero-art{position:relative;aspect-ratio:4/5;border-radius:28px;overflow:hidden;background:linear-gradient(160deg,#2c6b66 0%,#173a3a 70%);box-shadow:var(--shadow);max-width:460px;width:100%;justify-self:center}
+.hero-art svg.spine{position:absolute;inset:0;width:100%;height:100%}
+.ph-label{position:absolute;left:16px;bottom:16px;right:16px;display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.12);border:1px dashed rgba(255,255,255,.45);color:#fff;font-size:13px;font-weight:600;padding:10px 14px;border-radius:14px;backdrop-filter:blur(4px)}
+.rating-chip{position:absolute;top:16px;right:16px;background:#fff;border-radius:16px;padding:10px 14px;box-shadow:var(--shadow);font-size:13px;line-height:1.25}
+.rating-chip b{font-size:20px;font-family:Lora,serif}
+
+/* sections */
+section{padding:64px 0}
+@media(min-width:960px){section{padding:96px 0}}
+.sec-head{max-width:640px;margin-bottom:36px}
+.sec-head h2{font-size:clamp(28px,6vw,44px);margin:12px 0 12px}
+.sec-head p{color:var(--muted);font-size:17px}
+.note{display:inline-block;font-size:12.5px;font-weight:600;color:var(--amber-d);background:#fbeedf;border-radius:999px;padding:5px 12px;margin-top:6px}
+
+/* services */
+.services{display:grid;gap:14px}
+@media(min-width:640px){.services{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.services{grid-template-columns:repeat(3,1fr);gap:18px}}
+.svc{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px;transition:border-color .2s,transform .2s,box-shadow .2s}
+.svc:hover{border-color:var(--sage);transform:translateY(-2px);box-shadow:var(--shadow)}
+.svc-ic{width:46px;height:46px;border-radius:14px;background:var(--mist);display:grid;place-items:center;color:var(--teal)}
+.svc h3{font-size:21px}
+.svc p{color:var(--muted);font-size:15px;flex:1}
+.svc-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:12px;border-top:1px dashed var(--line);margin-top:4px}
+.price{font-weight:800;font-size:17px}
+.price small{display:block;font-size:11.5px;font-weight:600;color:var(--muted)}
+.svc-foot button{font:700 14px Manrope,sans-serif;color:var(--teal);background:var(--mist);border:0;border-radius:999px;padding:9px 14px;cursor:pointer;white-space:nowrap}
+.svc-foot button:hover{background:#d6e5df}
+.svc.feature{background:var(--deep);color:#fff;border-color:var(--deep)}
+.svc.feature p,.svc.feature .price small{color:#bcd3cc}
+.svc.feature .svc-ic{background:rgba(255,255,255,.1);color:#fff}
+.svc.feature .svc-foot{border-color:rgba(255,255,255,.2)}
+.svc.feature .svc-foot button{background:var(--amber);color:#fff}
+
+/* specialists */
+.alt{background:var(--sand)}
+.team{display:grid;gap:14px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:960px){.team{grid-template-columns:repeat(4,1fr);gap:18px}}
+.member .ph{aspect-ratio:3/4;border-radius:var(--r);background:
+  repeating-linear-gradient(135deg,rgba(44,107,102,.07) 0 12px,transparent 12px 24px),
+  linear-gradient(180deg,#e3ece8,#cfdfd8);display:grid;place-items:center;text-align:center;color:var(--teal);font-size:13px;font-weight:600;padding:12px}
+.member .ph svg{margin:0 auto 8px;opacity:.7}
+.member h3{font-family:Manrope,sans-serif;font-size:16px;font-weight:700;margin-top:12px}
+.member p{font-size:13.5px;color:var(--muted)}
+
+/* steps */
+.steps{display:grid;gap:14px;counter-reset:s}
+@media(min-width:768px){.steps{grid-template-columns:repeat(3,1fr);gap:18px}}
+.step{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px 22px 22px}
+.step::before{counter-increment:s;content:"0" counter(s);font-family:Lora,serif;font-size:40px;font-weight:600;color:var(--sage);line-height:1;display:block;margin-bottom:12px}
+.step h3{font-family:Manrope,sans-serif;font-size:18px;font-weight:700;margin-bottom:6px}
+.step p{color:var(--muted);font-size:15px}
+
+/* reviews */
+.reviews{display:grid;gap:22px;align-items:center;background:var(--deep);color:#fff;border-radius:28px;padding:32px 22px;position:relative;overflow:hidden}
+@media(min-width:900px){.reviews{grid-template-columns:auto 1fr auto;gap:48px;padding:48px 56px}}
+.big-rating{font-family:Lora,serif;font-size:84px;line-height:.9}
+.stars{display:flex;gap:4px;margin:10px 0 6px}
+.reviews .meta{color:#bcd3cc;font-size:15px}
+.reviews h2{font-size:clamp(24px,5vw,34px);margin-bottom:10px}
+.reviews p.txt{color:#cfe0da;max-width:520px}
+.reviews .btn{background:#fff;color:var(--ink)}
+.reviews .btn:hover{background:var(--mist)}
+
+/* booking */
+.book-grid{display:grid;gap:28px}
+@media(min-width:960px){.book-grid{grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}}
+.book-info ul{list-style:none;display:grid;gap:14px;margin-top:22px}
+.book-info li{display:flex;gap:12px;align-items:flex-start}
+.book-info li .dot{flex:none;width:36px;height:36px;border-radius:12px;background:#fff;border:1px solid var(--line);display:grid;place-items:center;color:var(--teal)}
+.book-info li b{display:block}
+.book-info li span{color:var(--muted);font-size:15px}
+form.card{background:#fff;border:1px solid var(--line);border-radius:28px;padding:22px;box-shadow:var(--shadow);display:grid;gap:14px}
+@media(min-width:600px){form.card{padding:32px;grid-template-columns:1fr 1fr}}
+.field{display:grid;gap:6px}
+.field.full{grid-column:1/-1}
+label.l{font-size:13.5px;font-weight:700}
+input[type=text],input[type=tel],input[type=date],select,textarea{width:100%;font:500 16px Manrope,sans-serif;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:14px;padding:13px 14px;outline:none;transition:border-color .15s;-webkit-appearance:none;appearance:none}
+select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235b6e6b' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:38px}
+input:focus,select:focus,textarea:focus{border-color:var(--teal);background:#fff}
+textarea{resize:vertical;min-height:84px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips input{position:absolute;opacity:0;pointer-events:none}
+.chips label{font-size:14px;font-weight:600;padding:9px 14px;border-radius:999px;border:1.5px solid var(--line);cursor:pointer;background:var(--paper)}
+.chips input:checked+label{background:var(--deep);border-color:var(--deep);color:#fff}
+.chips input:focus-visible+label{outline:2px solid var(--amber);outline-offset:2px}
+.check{display:flex;gap:10px;align-items:center;font-size:15px;font-weight:600;cursor:pointer}
+.check input{width:20px;height:20px;accent-color:var(--teal)}
+.submit{grid-column:1/-1}
+.submit .btn{width:100%;background:var(--wa);color:#fff;box-shadow:0 10px 24px -12px rgba(31,168,85,.8)}
+.submit .btn:hover{background:#178a45}
+.submit small{display:block;text-align:center;color:var(--muted);font-size:12.5px;margin-top:10px}
+
+/* contacts */
+.contact-grid{display:grid;gap:18px}
+@media(min-width:900px){.contact-grid{grid-template-columns:1fr 1.2fr}}
+.c-card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;display:grid;gap:18px;align-content:start}
+.c-row small{display:block;font-size:12.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.c-row a,.c-row div{font-weight:700;font-size:17px;text-decoration:none;word-break:break-word}
+.socials{display:flex;flex-wrap:wrap;gap:8px}
+.socials a{font-size:14px;font-weight:700;padding:10px 16px;border-radius:999px;background:var(--mist);text-decoration:none}
+.socials a:hover{background:#d6e5df}
+.map{position:relative;border-radius:var(--r);overflow:hidden;min-height:300px;background:#e9efe9;border:1px solid var(--line)}
+.map svg{position:absolute;inset:0;width:100%;height:100%}
+.map .map-cta{position:absolute;left:16px;right:16px;bottom:16px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;background:#fff;border-radius:16px;padding:12px 14px;box-shadow:var(--shadow)}
+.map .map-cta b{font-size:15px}
+.map .map-cta span{display:block;font-size:13px;color:var(--muted)}
+
+footer{background:var(--ink);color:#bcd3cc;padding:40px 0 110px;font-size:14px}
+@media(min-width:960px){footer{padding-bottom:40px}}
+footer .wrap{display:grid;gap:18px}
+footer .f-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;color:#fff}
+footer .f-top a{color:#fff;text-decoration:none;font-weight:700}
+footer .disc{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;font-size:13px}
+
+/* sticky mobile cta */
+.sticky{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;display:flex;gap:8px;padding-bottom:env(safe-area-inset-bottom);transition:transform .25s,opacity .25s}
+.sticky .btn{flex:1;padding:16px 18px;box-shadow:0 14px 30px -10px rgba(18,43,43,.55)}
+.sticky .call{flex:0 0 56px;padding:0;background:#fff;color:var(--ink);border:1px solid var(--line)}
+.sticky.hide{transform:translateY(140%);opacity:0;pointer-events:none}
+@media(min-width:960px){.sticky{display:none}}
+
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<div class="concept">Это концепт сайта для <b>«Атлант Саха»</b>, подготовлен Сайтлайт. Не официальный сайт. Фото и цены — примерные.</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Атлант Саха — на главную">
+      <span class="logo-mark" aria-hidden="true">
+        <svg width="20" height="24" viewBox="0 0 20 24" fill="none"><g fill="#f5efe6"><rect x="6" y="1" width="8" height="3.2" rx="1.6"/><rect x="5" y="6" width="10" height="3.2" rx="1.6"/><rect x="4" y="11" width="12" height="3.2" rx="1.6"/><rect x="5" y="16" width="10" height="3.2" rx="1.6"/></g><rect x="7" y="20.6" width="6" height="2.6" rx="1.3" fill="#d9893f"/></svg>
+      </span>
+      <span class="logo-txt">Атлант Саха<small>центр здоровья позвоночника</small></span>
+    </a>
+    <nav class="menu" aria-label="Разделы">
+      <a href="#services">Услуги</a>
+      <a href="#team">Специалисты</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="top-phone" href="tel:+79247663333">+7 924 766-33-33</a>
+    <a class="btn btn-amber btn-sm" href="#book">Записаться</a>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Массаж · Якутск, пр. Ленина, 58</span>
+      <h1>Спина скажет <em>спасибо</em>. Массаж по записи в&nbsp;центре Якутска</h1>
+      <p class="lead">Тайский, аппаратный и детский массаж, лимфодренаж, прессотерапия, массаж в 4 руки — в студии или с выездом к вам домой.</p>
+      <div class="hero-cta">
+        <a class="btn btn-amber" href="#book">Записаться в WhatsApp</a>
+        <a class="btn btn-ghost" href="#services">Услуги и цены</a>
+      </div>
+      <div class="facts">
+        <div class="fact"><b><span class="star">★</span> 4.8</b><span>рейтинг в 2ГИС</span></div>
+        <div class="fact"><b>745</b><span>отзывов в&nbsp;2ГИС</span></div>
+        <div class="fact"><b>7</b><span>видов массажа и процедур</span></div>
+      </div>
+    </div>
+
+    <div class="hero-art reveal" role="img" aria-label="Иллюстрация-заглушка: здесь будет фото студии">
+      <svg class="spine" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+          <radialGradient id="glow" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#9fbfb4" stop-opacity=".45"/><stop offset="1" stop-color="#9fbfb4" stop-opacity="0"/></radialGradient>
+        </defs>
+        <rect width="400" height="500" fill="url(#glow)"/>
+        <g fill="none" stroke="rgba(255,255,255,.10)" stroke-width="1.5">
+          <circle cx="200" cy="230" r="120"/><circle cx="200" cy="230" r="170"/><circle cx="200" cy="230" r="220"/>
+        </g>
+        <path d="M200 60 C 232 140, 168 220, 200 300 S 222 400, 200 440" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="22" stroke-linecap="round"/>
+        <g fill="#f5efe6">
+          <rect x="182" y="70"  width="36" height="16" rx="8" transform="rotate(8 200 78)"/>
+          <rect x="184" y="96"  width="40" height="17" rx="8.5" transform="rotate(12 204 104)"/>
+          <rect x="188" y="124" width="42" height="18" rx="9" transform="rotate(10 209 133)"/>
+          <rect x="186" y="153" width="44" height="18" rx="9" transform="rotate(2 208 162)"/>
+          <rect x="178" y="182" width="46" height="19" rx="9.5" transform="rotate(-8 201 191)"/>
+          <rect x="170" y="212" width="48" height="20" rx="10" transform="rotate(-12 194 222)"/>
+          <rect x="168" y="243" width="50" height="21" rx="10.5" transform="rotate(-8 193 253)"/>
+          <rect x="172" y="275" width="52" height="22" rx="11" transform="rotate(0 198 286)"/>
+          <rect x="178" y="308" width="52" height="22" rx="11" transform="rotate(8 204 319)"/>
+          <rect x="182" y="341" width="50" height="22" rx="11" transform="rotate(10 207 352)"/>
+        </g>
+        <path d="M168 378 Q 200 430 232 378 Q 214 412 200 420 Q 186 412 168 378Z" fill="#d9893f"/>
+      </svg>
+      <div class="rating-chip"><b>4.8</b> ★★★★★<br><span style="color:#5b6e6b">745 отзывов в 2ГИС</span></div>
+      <div class="ph-label">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><circle cx="12" cy="12" r="3.5"/><path d="M8 5l1.5-2h5L16 5"/></svg>
+        Здесь будет ваше фото студии
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Услуги</span>
+      <h2>Что можно сделать в «Атлант Саха»</h2>
+      <p>Перечень — из карточки 2ГИС. Нажмите «Записаться», и услуга сразу подставится в заявку.</p>
+      <span class="note">Цены и длительность — примерные, для концепта</span>
+    </div>
+
+    <div class="services">
+      <article class="svc feature reveal">
+        <div class="svc-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v18M8 6h8M7 10h10M8 14h8M9 18h6"/></svg></div>
+        <h3>Массаж спины</h3>
+        <p>Классический массаж спины и шейно-воротниковой зоны — для тех, кто много сидит за компьютером или за рулём.</p>
+        <div class="svc-foot"><div class="price">от 2 000 ₽<small>примерно · 40 мин</small></div><button type="button" data-svc="Массаж спины">Записаться</button></div>
+      </article>
+      <article class="svc reveal">
+        <div class="svc-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 21c-4-3-7-6-7-10a7 7 0 0 1 14 0c0 4-3 7-7 10z"/><path d="M12 8v6M9 11h6"/></svg></div>
+        <h3>Тайский массаж</h3>
+        <p>Глубокая проработка мышц, растяжки и работа с телом в одежде — на мате.</p>
+        <div class="svc-foot"><div class="price">от 3 500 ₽<small>примерно · 60 мин</small></div><button type="button" data-svc="Тайский массаж">Записаться</button></div>
+      </article>
+      <article class="svc reveal">
+        <div class="svc-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="4" y="7" width="16" height="10" rx="3"/><path d="M8 12h3M15 10v4"/></svg></div>
+        <h3>Аппаратный массаж</h3>
+        <p>Процедуры на специальном оборудовании — как самостоятельно, так и в дополнение к ручному массажу.</p>
+        <div class="svc-foot"><div class="price">от 1 500 ₽<small>примерно · 30 мин</small></div><button type="button" data-svc="Аппаратный массаж">Записаться</button></div>
+      </article>
+      <article class="svc reveal">
+        <div class="svc-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 3v8a4 4 0 0 0 8 0V3"/><path d="M6 21h12"/><path d="M12 15v6"/></svg></div>
+        <h3>Прессотерапия</h3>
+        <p>Аппаратная процедура с манжетами для ног — ощущение лёгкости после долгого дня.</p>
+        <div class="svc-foot"><div class="price">от 1 200 ₽<small>примерно · 30 мин</small></div><button type="button" data-svc="Прессотерапия">Записаться</button></div>
+      </article>
+      <article class="svc reveal">
+        <div class="svc-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg></div>
+        <h3>Лимфодренаж</h3>
+        <p>Мягкий ручной лимфодренажный массаж, курсом или разово.</p>
+        <div class="svc-foot"><div class="price">от 2 500 ₽<small>примерно · 50 мин</small></div><button type="button" data-svc="Лимфодренажный массаж">Записаться</button></div>
+      </article>
+      <article class="svc reveal">
+        <div class="svc-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="7" r="3"/><path d="M6 21v-2a6 6 0 0 1 12 0v2"/></svg></div>
+        <h3>Детский массаж</h3>
+        <p>Массаж для детей — спокойно, бережно, с удобным временем записи для родителей.</p>
+        <div class="svc-foot"><div class="price">от 1 500 ₽<small>примерно · 30 мин</small></div><button type="button" data-svc="Детский массаж">Записаться</button></div>
+      </article>
+      <article class="svc reveal">
+        <div class="svc-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 11V6a2 2 0 0 1 4 0v5M13 11V6a2 2 0 0 1 4 0v5"/><path d="M5 11h14v2a7 7 0 0 1-14 0z"/></svg></div>
+        <h3>Массаж в 4 руки</h3>
+        <p>Два мастера работают синхронно — особый формат для полного расслабления.</p>
+        <div class="svc-foot"><div class="price">от 5 000 ₽<small>примерно · 60 мин</small></div><button type="button" data-svc="Массаж в 4 руки">Записаться</button></div>
+      </article>
+      <article class="svc reveal">
+        <div class="svc-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></div>
+        <h3>Выезд на дом</h3>
+        <p>Мастер приедет к вам по Якутску со всем необходимым — удобно для мам с малышами и пожилых родителей.</p>
+        <div class="svc-foot"><div class="price">+ 1 000 ₽<small>примерно · к услуге</small></div><button type="button" data-svc="Массаж с выездом на дом" data-home="1">Записаться</button></div>
+      </article>
+      <article class="svc reveal">
+        <div class="svc-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 12h8M12 8v8"/></svg></div>
+        <h3>Курс процедур</h3>
+        <p>Несколько сеансов по удобному графику. Подберём программу на первой встрече.</p>
+        <div class="svc-foot"><div class="price">по запросу<small>условия — примерные</small></div><button type="button" data-svc="Курс процедур">Записаться</button></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="alt">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Специалисты</span>
+      <h2>Мастера, к которым возвращаются</h2>
+      <p>Здесь будут фото и короткие карточки ваших специалистов: имя, направление, опыт. Клиенты любят знать, к кому идут.</p>
+    </div>
+    <div class="team">
+      <div class="member reveal"><div class="ph"><div><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Здесь будет<br>фото мастера</div></div><h3>Имя специалиста</h3><p>Направление · опыт</p></div>
+      <div class="member reveal"><div class="ph"><div><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Здесь будет<br>фото мастера</div></div><h3>Имя специалиста</h3><p>Направление · опыт</p></div>
+      <div class="member reveal"><div class="ph"><div><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Здесь будет<br>фото мастера</div></div><h3>Имя специалиста</h3><p>Направление · опыт</p></div>
+      <div class="member reveal"><div class="ph"><div><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Здесь будет<br>фото мастера</div></div><h3>Имя специалиста</h3><p>Направление · опыт</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Как записаться</span>
+      <h2>Три шага до сеанса</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><h3>Оставьте заявку</h3><p>Выберите услугу и удобное время в форме — откроется WhatsApp с готовым сообщением.</p></div>
+      <div class="step reveal"><h3>Подтвердим время</h3><p>Администратор ответит в мессенджере и согласует день, время и мастера. Приём — по предварительной записи.</p></div>
+      <div class="step reveal"><h3>Приходите или ждите мастера</h3><p>Проспект Ленина, 58, 2 этаж — есть пандус. Или выберите выезд на дом.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" style="padding-top:0">
+  <div class="wrap">
+    <div class="reviews reveal">
+      <div>
+        <div class="big-rating">4.8</div>
+        <div class="stars" aria-label="Рейтинг 4.8 из 5">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#d9893f"><path d="M12 2l3 6.6 7 .7-5.3 4.8 1.6 7-6.3-3.7L5.7 21l1.6-7L2 9.3l7-.7z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#d9893f"><path d="M12 2l3 6.6 7 .7-5.3 4.8 1.6 7-6.3-3.7L5.7 21l1.6-7L2 9.3l7-.7z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#d9893f"><path d="M12 2l3 6.6 7 .7-5.3 4.8 1.6 7-6.3-3.7L5.7 21l1.6-7L2 9.3l7-.7z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#d9893f"><path d="M12 2l3 6.6 7 .7-5.3 4.8 1.6 7-6.3-3.7L5.7 21l1.6-7L2 9.3l7-.7z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#d9893f"><path d="M12 2l3 6.6 7 .7-5.3 4.8 1.6 7-6.3-3.7L5.7 21l1.6-7L2 9.3l7-.7z"/></svg>
+        </div>
+        <div class="meta">745 отзывов · 826 оценок</div>
+      </div>
+      <div>
+        <h2>Сотни клиентов уже оценили «Атлант Саха»</h2>
+        <p class="txt">Мы не переписываем чужие слова — все настоящие отзывы клиентов можно прочитать в карточке центра в 2ГИС.</p>
+      </div>
+      <a class="btn" href="https://2gis.ru/yakutsk/firm/70000001041716583/tab/reviews" target="_blank" rel="noopener">Читать отзывы в 2ГИС →</a>
+    </div>
+  </div>
+</section>
+
+<section id="book" class="alt">
+  <div class="wrap book-grid">
+    <div class="book-info reveal">
+      <span class="eyebrow">Запись</span>
+      <div class="sec-head" style="margin-bottom:0">
+        <h2>Запишитесь за минуту</h2>
+        <p>Заполните форму — откроется WhatsApp с готовым сообщением. Мы ничего не сохраняем на сайте, заявка уходит напрямую администратору.</p>
+      </div>
+      <ul>
+        <li><span class="dot"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b>По предварительной записи</b><span>Время согласуем в мессенджере</span></div></li>
+        <li><span class="dot"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><div><b>Проспект Ленина, 58, 2 этаж</b><span>Есть пандус</span></div></li>
+        <li><span class="dot"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg></span><div><b>Выезд на дом</b><span>Отметьте в форме — мастер приедет к вам</span></div></li>
+      </ul>
+    </div>
+
+    <form class="card reveal" id="bookForm" novalidate>
+      <div class="field">
+        <label class="l" for="fName">Ваше имя</label>
+        <input id="fName" name="name" type="text" autocomplete="given-name" placeholder="Как к вам обращаться" required>
+      </div>
+      <div class="field">
+        <label class="l" for="fPhone">Телефон <span style="font-weight:500;color:var(--muted)">(необязательно)</span></label>
+        <input id="fPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7 9__ ___-__-__">
+      </div>
+      <div class="field full">
+        <label class="l" for="fSvc">Услуга</label>
+        <select id="fSvc" name="svc">
+          <option>Массаж спины</option>
+          <option>Тайский массаж</option>
+          <option>Аппаратный массаж</option>
+          <option>Прессотерапия</option>
+          <option>Лимфодренажный массаж</option>
+          <option>Детский массаж</option>
+          <option>Массаж в 4 руки</option>
+          <option>Массаж с выездом на дом</option>
+          <option>Курс процедур</option>
+          <option>Нужна консультация — не знаю, что выбрать</option>
+        </select>
+      </div>
+      <div class="field">
+        <label class="l" for="fDate">Желаемая дата</label>
+        <input id="fDate" name="date" type="date">
+      </div>
+      <div class="field">
+        <span class="l">Время</span>
+        <div class="chips" role="radiogroup" aria-label="Время">
+          <input type="radio" name="time" id="t1" value="утро"><label for="t1">Утро</label>
+          <input type="radio" name="time" id="t2" value="день" checked><label for="t2">День</label>
+          <input type="radio" name="time" id="t3" value="вечер"><label for="t3">Вечер</label>
+        </div>
+      </div>
+      <div class="field full">
+        <label class="check"><input type="checkbox" id="fHome" name="home"> Нужен выезд на дом</label>
+      </div>
+      <div class="field full">
+        <label class="l" for="fMsg">Комментарий</label>
+        <textarea id="fMsg" name="msg" placeholder="Например: беспокоит поясница, хочу записаться на курс"></textarea>
+      </div>
+      <div class="submit">
+        <button class="btn" type="submit">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.2.5.1.6 0l.9-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.1.1.7-.1 1.2z"/></svg>
+          Отправить в WhatsApp
+        </button>
+        <small>Откроется WhatsApp с готовым текстом. На сервер ничего не отправляется.</small>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section id="contacts">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Контакты</span>
+      <h2>Как нас найти</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="c-card reveal">
+        <div class="c-row"><small>Адрес</small><div>Якутск, проспект Ленина, 58, 2 этаж</div></div>
+        <div class="c-row"><small>Телефон</small><a href="tel:+79247663333">+7 924 766-33-33</a></div>
+        <div class="c-row"><small>Режим работы</small><div>По предварительной записи</div></div>
+        <div class="c-row"><small>Email</small><a href="mailto:atlantykt14@yandex.ru">atlantykt14@yandex.ru</a></div>
+        <div class="c-row"><small>Мессенджеры и соцсети</small>
+          <div class="socials">
+            <a href="https://wa.me/79247663333" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://t.me/atlantsakha_ykt" target="_blank" rel="noopener">Telegram</a>
+            <a href="https://vk.com/club45237453" target="_blank" rel="noopener">ВКонтакте</a>
+          </div>
+        </div>
+      </div>
+      <div class="map reveal" role="img" aria-label="Схематичная карта: проспект Ленина, 58">
+        <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <rect width="600" height="400" fill="#e9efe9"/>
+          <g fill="#dde6df">
+            <rect x="30" y="30" width="150" height="90" rx="8"/><rect x="210" y="30" width="170" height="90" rx="8"/><rect x="410" y="30" width="170" height="90" rx="8"/>
+            <rect x="30" y="200" width="150" height="80" rx="8"/><rect x="410" y="200" width="170" height="80" rx="8"/>
+            <rect x="30" y="320" width="150" height="70" rx="8"/><rect x="210" y="320" width="170" height="70" rx="8"/><rect x="410" y="320" width="170" height="70" rx="8"/>
+          </g>
+          <rect x="210" y="200" width="170" height="80" rx="8" fill="#cfe0d8"/>
+          <path d="M0 160 H600" stroke="#fff" stroke-width="30"/>
+          <path d="M195 0 V400 M395 0 V400" stroke="#fff" stroke-width="14"/>
+          <path d="M0 300 H600" stroke="#fff" stroke-width="12"/>
+          <text x="66" y="165" font-family="Manrope,sans-serif" font-size="13" font-weight="700" fill="#5b6e6b">проспект Ленина</text>
+          <g transform="translate(295 206)">
+            <circle r="34" fill="#d9893f" opacity=".18"/>
+            <path d="M0 18 C -16 0 -18 -10 -18 -18 a18 18 0 0 1 36 0 c0 8 -2 18 -18 36z" transform="translate(0 -14)" fill="#173a3a"/>
+            <circle cy="-32" r="6.5" fill="#f5efe6"/>
+          </g>
+        </svg>
+        <div class="map-cta">
+          <div><b>Пр. Ленина, 58 · 2 этаж</b><span>Схема примерная</span></div>
+          <a class="btn btn-amber btn-sm" href="https://2gis.ru/yakutsk/firm/70000001041716583" target="_blank" rel="noopener">Открыть в 2ГИС</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="f-top">
+      <div><b style="font-family:Lora,serif;font-size:18px">Атлант Саха</b><br><span style="color:#bcd3cc">Центр здоровья позвоночника · Якутск, пр. Ленина, 58</span></div>
+      <a href="tel:+79247663333">+7 924 766-33-33</a>
+    </div>
+    <div class="disc">Это концепт сайта для «Атлант Саха», подготовлен Сайтлайт. Не официальный сайт. Фото и цены — примерные.</div>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky">
+  <a class="btn btn-amber" href="#book">Записаться на массаж</a>
+  <a class="btn call" href="tel:+79247663333" aria-label="Позвонить">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+  </a>
+</div>
+
+<script>
+(function(){
+  var WA = '79247663333';
+  var form = document.getElementById('bookForm');
+  var svc = document.getElementById('fSvc');
+  var home = document.getElementById('fHome');
+  var dateEl = document.getElementById('fDate');
+
+  try { dateEl.min = new Date().toISOString().slice(0,10); } catch(e){}
+
+  document.querySelectorAll('[data-svc]').forEach(function(b){
+    b.addEventListener('click', function(){
+      svc.value = b.getAttribute('data-svc');
+      if (b.hasAttribute('data-home')) home.checked = true;
+      document.getElementById('book').scrollIntoView({behavior:'smooth'});
+      setTimeout(function(){ document.getElementById('fName').focus({preventScroll:true}); }, 600);
+    });
+  });
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var nameEl = document.getElementById('fName');
+    var name = nameEl.value.trim();
+    if (!name) { nameEl.focus(); nameEl.style.borderColor = '#d9893f'; return; }
+    var t = form.querySelector('input[name=time]:checked');
+    var d = dateEl.value ? dateEl.value.split('-').reverse().join('.') : 'уточню';
+    var lines = [
+      'Здравствуйте! Хочу записаться в «Атлант Саха».',
+      'Имя: ' + name,
+      form.phone.value.trim() ? 'Телефон: ' + form.phone.value.trim() : '',
+      'Услуга: ' + svc.value,
+      'Дата: ' + d + (t ? ', ' + t.value : ''),
+      home.checked ? 'Нужен выезд на дом' : '',
+      form.msg.value.trim() ? 'Комментарий: ' + form.msg.value.trim() : ''
+    ].filter(Boolean);
+    window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
+  });
+
+  // hide sticky CTA when the form is on screen
+  var sticky = document.getElementById('sticky');
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function(es){
+      es.forEach(function(en){ sticky.classList.toggle('hide', en.isIntersecting); });
+    }, {threshold:.15}).observe(form);
+
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(en){ if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, {rootMargin:'0px 0px -8% 0px'});
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); });
+  }
+})();
+</script>
+</body>
+</html>
